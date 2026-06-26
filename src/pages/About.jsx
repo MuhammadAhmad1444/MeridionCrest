@@ -61,7 +61,7 @@ export default function About() {
               </p>
 
               {/* Corporate info */}
-              <div className="bg-raised border border-line p-6" style={{ borderLeft: '3px solid #D4A847' }}>
+              <div className="bg-raised border border-line p-6" style={{ borderLeft: '3px solid #1E3A8A' }}>
                 <h3 className="label text-muted mb-5">Corporate Information</h3>
                 <div className="space-y-3">
                   {corporate.map(([k, v]) => (
@@ -81,7 +81,7 @@ export default function About() {
               </p>
               <div className="space-y-7">
                 {pillars.map(({ icon: Icon, label, desc }) => (
-                  <div key={label} className="flex gap-5 pt-6" style={{ borderTop: '1px solid #252525' }}>
+                  <div key={label} className="flex gap-5 pt-6" style={{ borderTop: '1px solid #E2E8F0' }}>
                     <Icon size={14} className="text-gold flex-shrink-0 mt-0.5" />
                     <div>
                       <p className="font-sans text-sm font-medium text-cream mb-1.5">{label}</p>
@@ -108,7 +108,7 @@ export default function About() {
               <div
                 key={title}
                 className="bg-surface border border-line hover:border-gold/20 p-6 transition-all duration-300 group"
-                style={{ borderTop: '2px solid #D4A847' }}
+                style={{ borderTop: '2px solid #1E3A8A' }}
               >
                 <Icon size={14} className="text-gold mb-5 group-hover:scale-110 transition-transform duration-200" />
                 <h3 className="font-sans text-sm font-semibold text-cream mb-2.5">{title}</h3>

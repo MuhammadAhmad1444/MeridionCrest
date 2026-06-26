@@ -67,8 +67,8 @@ export default function Contact() {
   }
 
   const inputClass = 'w-full bg-transparent border-0 border-b font-sans text-sm text-cream placeholder-muted/40 py-2.5 focus:outline-none transition-colors rounded-none'
-  const inputStyle = { borderBottomColor: '#252525' }
-  const inputFocusStyle = { borderBottomColor: '#D4A847' }
+  const inputStyle = { borderBottomColor: '#E2E8F0' }
+  const inputFocusStyle = { borderBottomColor: '#1E3A8A' }
 
   return (
     <div className="bg-bg">
@@ -108,7 +108,7 @@ export default function Contact() {
               </div>
 
               {/* Notice */}
-              <div className="mt-10 p-5 bg-raised" style={{ borderLeft: '3px solid #D4A847' }}>
+              <div className="mt-10 p-5 bg-raised" style={{ borderLeft: '3px solid #1E3A8A' }}>
                 <p className="font-sans text-xs text-warm leading-relaxed">
                   For business partnerships, IT consultancy scoping, or media enquiries, please include your company name and a brief description of your requirements.
                 </p>
@@ -140,8 +140,8 @@ export default function Contact() {
                         onChange={set('name')}
                         className={inputClass}
                         style={inputStyle}
-                        onFocus={e => e.target.style.borderBottomColor = '#D4A847'}
-                        onBlur={e => e.target.style.borderBottomColor = '#252525'}
+                        onFocus={e => e.target.style.borderBottomColor = '#1E3A8A'}
+                        onBlur={e => e.target.style.borderBottomColor = '#E2E8F0'}
                       />
                     </div>
                     <div>
@@ -156,8 +156,8 @@ export default function Contact() {
                         onChange={set('email')}
                         className={inputClass}
                         style={inputStyle}
-                        onFocus={e => e.target.style.borderBottomColor = '#D4A847'}
-                        onBlur={e => e.target.style.borderBottomColor = '#252525'}
+                        onFocus={e => e.target.style.borderBottomColor = '#1E3A8A'}
+                        onBlur={e => e.target.style.borderBottomColor = '#E2E8F0'}
                       />
                     </div>
                   </div>
@@ -173,8 +173,8 @@ export default function Contact() {
                       onChange={set('company')}
                       className={inputClass}
                       style={inputStyle}
-                      onFocus={e => e.target.style.borderBottomColor = '#D4A847'}
-                      onBlur={e => e.target.style.borderBottomColor = '#252525'}
+                      onFocus={e => e.target.style.borderBottomColor = '#1E3A8A'}
+                      onBlur={e => e.target.style.borderBottomColor = '#E2E8F0'}
                     />
                   </div>
 
@@ -187,13 +187,13 @@ export default function Contact() {
                       value={form.subject}
                       onChange={set('subject')}
                       className={`${inputClass} cursor-pointer`}
-                      style={{ ...inputStyle, backgroundColor: 'transparent', color: form.subject ? '#F0EAD6' : 'rgba(122,112,96,0.6)' }}
-                      onFocus={e => e.target.style.borderBottomColor = '#D4A847'}
-                      onBlur={e => e.target.style.borderBottomColor = '#252525'}
+                      style={{ ...inputStyle, backgroundColor: 'transparent', color: form.subject ? '#0F172A' : 'rgba(100,116,139,0.6)' }}
+                      onFocus={e => e.target.style.borderBottomColor = '#1E3A8A'}
+                      onBlur={e => e.target.style.borderBottomColor = '#E2E8F0'}
                     >
-                      <option value="" style={{ background: '#1A1A1A' }}>Select a subject</option>
+                      <option value="" style={{ background: '#FFFFFF' }}>Select a subject</option>
                       {subjects.map(s => (
-                        <option key={s} value={s} style={{ background: '#1A1A1A' }}>{s}</option>
+                        <option key={s} value={s} style={{ background: '#FFFFFF' }}>{s}</option>
                       ))}
                     </select>
                   </div>
@@ -210,8 +210,8 @@ export default function Contact() {
                       onChange={set('message')}
                       className={`${inputClass} resize-none`}
                       style={inputStyle}
-                      onFocus={e => e.target.style.borderBottomColor = '#D4A847'}
-                      onBlur={e => e.target.style.borderBottomColor = '#252525'}
+                      onFocus={e => e.target.style.borderBottomColor = '#1E3A8A'}
+                      onBlur={e => e.target.style.borderBottomColor = '#E2E8F0'}
                     />
                   </div>
 

@@ -185,7 +185,7 @@ export default function Home() {
               </p>
               <div className="grid grid-cols-2 gap-5">
                 {trustItems.map(({ icon: Icon, label, desc }) => (
-                  <div key={label} className="pt-5" style={{ borderTop: '1px solid rgba(212,168,71,0.18)' }}>
+                  <div key={label} className="pt-5" style={{ borderTop: '1px solid rgba(30,58,138,0.18)' }}>
                     <Icon size={14} className="text-gold mb-3" />
                     <p className="font-sans text-sm font-medium text-cream mb-1.5">{label}</p>
                     <p className="font-sans text-xs text-muted leading-relaxed">{desc}</p>
@@ -230,7 +230,7 @@ export default function Home() {
                 <div className="p-5">
                   <p className="label mb-2">{p.category}</p>
                   <p className="font-serif font-light text-base text-cream mb-3">{p.name}</p>
-                  <div className="flex items-center justify-between pt-3" style={{ borderTop: '1px solid #252525' }}>
+                  <div className="flex items-center justify-between pt-3" style={{ borderTop: '1px solid #E2E8F0' }}>
                     <span className="font-sans text-sm font-medium text-gold">{p.price}</span>
                     <Link to="/shop" className="font-sans text-xs text-muted hover:text-gold transition-colors duration-200">
                       View →

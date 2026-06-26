@@ -18,7 +18,7 @@ export default function CookieBanner() {
 
   return (
     <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-[100] w-[calc(100%-2rem)] max-w-lg anim-fade-up" style={{ animationDuration: '0.4s' }}>
-      <div className="bg-raised border border-line shadow-2xl shadow-black/60 px-5 py-4 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+      <div className="bg-raised border border-line shadow-xl shadow-slate-900/10 px-5 py-4 flex flex-col sm:flex-row items-start sm:items-center gap-4">
         <p className="font-sans text-[13px] text-warm leading-relaxed flex-1">
           We use cookies to enhance your experience.{' '}
           <Link to="/cookie-policy" className="text-gold hover:underline">Cookie Policy</Link>

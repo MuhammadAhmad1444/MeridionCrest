@@ -7,27 +7,15 @@
 
   body {
     @apply bg-bg text-cream antialiased;
-    font-family: 'Outfit', system-ui, sans-serif;
+    font-family: 'Inter', system-ui, sans-serif;
   }
 
-  /* Grain overlay for depth */
-  body::after {
-    content: '';
-    position: fixed;
-    inset: 0;
-    pointer-events: none;
-    z-index: 9998;
-    opacity: 0.03;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
-    background-size: 300px;
-  }
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: #F8FAFC; }
+  ::-webkit-scrollbar-thumb { background: #1E3A8A; border-radius: 3px; }
+  * { scrollbar-width: thin; scrollbar-color: #1E3A8A #F8FAFC; }
 
-  ::-webkit-scrollbar { width: 3px; }
-  ::-webkit-scrollbar-track { background: #0A0A0A; }
-  ::-webkit-scrollbar-thumb { background: #D4A847; border-radius: 1px; }
-  * { scrollbar-width: thin; scrollbar-color: #D4A847 #0A0A0A; }
-
-  ::selection { background: rgba(212, 168, 71, 0.25); color: #F0EAD6; }
+  ::selection { background: rgba(30, 58, 138, 0.15); color: #0F172A; }
 }
 
 @layer components {
@@ -42,15 +30,15 @@
   .btn-outline {
     @apply inline-flex items-center gap-2 px-7 py-3.5 border border-gold/40 text-gold font-sans text-sm font-medium tracking-wide hover:border-gold transition-all duration-200;
   }
-  .btn-outline:hover { background-color: rgba(212, 168, 71, 0.08); }
-  .btn-outline:active { background-color: rgba(212, 168, 71, 0.14); }
+  .btn-outline:hover { background-color: rgba(30, 58, 138, 0.06); }
+  .btn-outline:active { background-color: rgba(30, 58, 138, 0.12); }
 
   .btn-ghost {
     @apply inline-flex items-center gap-2 text-gold font-sans text-sm font-medium hover:gap-3 transition-all duration-200;
   }
 
   .card-dark {
-    @apply bg-surface border border-line hover:border-gold/25 transition-all duration-300;
+    @apply bg-bg border border-line hover:border-gold/30 shadow-sm hover:shadow-md transition-all duration-300;
   }
 
   /* Gold hairline divider */

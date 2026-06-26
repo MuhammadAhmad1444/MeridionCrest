@@ -127,7 +127,7 @@ export default function Shop() {
                   <p className="label mb-2">{p.category}</p>
                   <h3 className="font-serif font-light text-base text-cream mb-2">{p.name}</h3>
                   <p className="font-sans text-[12px] text-muted leading-relaxed mb-4">{p.desc}</p>
-                  <div className="flex items-center justify-between pt-3" style={{ borderTop: '1px solid #252525' }}>
+                  <div className="flex items-center justify-between pt-3" style={{ borderTop: '1px solid #E2E8F0' }}>
                     <span className="font-sans text-sm font-medium text-gold">{p.price}</span>
                     <Link
                       to="/contact"
@@ -169,7 +169,7 @@ export default function Shop() {
       <section className="py-14">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 grid sm:grid-cols-3 gap-6">
           {policies.map(({ icon: Icon, title, body, link }) => (
-            <div key={title} className="pt-5" style={{ borderTop: '2px solid #D4A847' }}>
+            <div key={title} className="pt-5" style={{ borderTop: '2px solid #1E3A8A' }}>
               <Icon size={14} className="text-gold mb-4" />
               <p className="font-sans text-sm font-medium text-cream mb-1.5">{title}</p>
               <p className="font-sans text-xs text-muted mb-3">{body}</p>
