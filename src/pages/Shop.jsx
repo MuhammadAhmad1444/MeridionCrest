@@ -11,7 +11,7 @@ const products = [
   { id: 3,  name: 'Premium Pullover Hoodie',         category: 'Apparel',     price: '£45.00', badge: 'Best Seller', desc: '340gsm brushed fleece interior. Kangaroo pocket. Available S–2XL. 4 colours.',              img: 'https://picsum.photos/seed/cc-hoodie-pull/600/480' },
   { id: 4,  name: 'Zip-Up Hoodie',                  category: 'Apparel',     price: '£52.00', badge: null,          desc: '320gsm fleece. Full-length YKK zip. Twin front pockets. Available S–2XL.',                  img: 'https://picsum.photos/seed/cc-hoodie-zip/600/480' },
   // Drinkware
-  { id: 5,  name: 'Classic Branded Mug 11oz',       category: 'Drinkware',   price: '£14.00', badge: 'Best Seller', desc: 'Ceramic. Dishwasher safe. Full wraparound Chic Cub print.',                               img: 'https://picsum.photos/seed/cc-mug-classic/600/480' },
+  { id: 5,  name: 'Classic Branded Mug 11oz',       category: 'Drinkware',   price: '£14.00', badge: 'Best Seller', desc: 'Ceramic. Dishwasher safe. Full wraparound Meridion Crest print.',                               img: 'https://picsum.photos/seed/cc-mug-classic/600/480' },
   { id: 6,  name: 'Large Branded Mug 15oz',         category: 'Drinkware',   price: '£16.00', badge: null,          desc: 'Ceramic. Extra-large capacity. Bold logo print. Microwave safe.',                          img: 'https://picsum.photos/seed/cc-mug-large/600/480' },
   { id: 7,  name: 'Magic Colour-Change Mug',        category: 'Drinkware',   price: '£19.00', badge: 'New Arrival', desc: 'Black at room temp — design reveals with hot liquid. 11oz. Ceramic.',                      img: 'https://picsum.photos/seed/cc-mug-magic/600/480' },
   { id: 8,  name: 'Insulated Travel Tumbler',       category: 'Drinkware',   price: '£24.00', badge: null,          desc: 'Stainless steel. Double-wall insulation. 16oz. Laser-engraved logo.',                       img: 'https://picsum.photos/seed/cc-tumbler/600/480' },
@@ -28,7 +28,7 @@ const products = [
   { id: 16, name: 'Business Card Pack — 5 Styles',  category: 'Digital',     price: '£7.00',  badge: null,          desc: 'Print-ready PDF + editable Canva files. CMYK. 85mm × 55mm standard.',                       img: 'https://picsum.photos/seed/cc-bizcard/600/480' },
   { id: 17, name: 'Digital Planner Bundle',         category: 'Digital',     price: '£14.00', badge: 'New Arrival', desc: '12-month undated planner. PDF format. Compatible with GoodNotes & Notability.',             img: 'https://picsum.photos/seed/cc-planner/600/480' },
   // Accessories
-  { id: 18, name: 'Embroidered Beanie',             category: 'Accessories', price: '£24.00', badge: null,          desc: '100% acrylic knit. Embroidered Chic Cub logo. One size fits all. 3 colourways.',             img: 'https://picsum.photos/seed/cc-beanie/600/480' },
+  { id: 18, name: 'Embroidered Beanie',             category: 'Accessories', price: '£24.00', badge: null,          desc: '100% acrylic knit. Embroidered Meridion Crest logo. One size fits all. 3 colourways.',             img: 'https://picsum.photos/seed/cc-beanie/600/480' },
   { id: 19, name: 'Branded Baseball Cap',           category: 'Accessories', price: '£22.00', badge: null,          desc: 'Structured 6-panel cap. Embroidered logo. Adjustable strap. One size.',                      img: 'https://picsum.photos/seed/cc-cap/600/480' },
   { id: 20, name: 'Laptop Sleeve 13″',              category: 'Accessories', price: '£28.00', badge: null,          desc: 'Neoprene with zip closure. Fits 13″ laptops. Branded exterior panel.',                       img: 'https://picsum.photos/seed/cc-sleeve/600/480' },
 ]
@@ -54,7 +54,7 @@ export default function Shop() {
         <div className="relative max-w-7xl mx-auto px-6 lg:px-12">
           <span className="label mb-5 block">Print on Demand</span>
           <h1 className="font-serif font-light text-5xl lg:text-6xl text-cream mb-6 max-w-xl leading-tight">
-            The Chic Cub Collection
+            The Meridion Crest Collection
           </h1>
           <div className="w-10 h-px bg-gold mb-7" />
           <p className="font-sans text-base text-warm leading-[1.8] max-w-2xl">
@@ -78,7 +78,7 @@ export default function Shop() {
       {/* ── Trust Bar ── */}
       <div className="bg-surface border-b border-line">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 py-4 flex flex-wrap justify-center gap-x-8 gap-y-1 font-sans text-[11px] text-muted tracking-wide">
-          <span>UK Registered Company · No. 17232277</span>
+          <span>UK Registered Company · No. 17283492</span>
           <span>UK &amp; International Delivery</span>
           <span>14-Day Returns Policy</span>
           <span>Consumer Contracts Regulations Compliant</span>
@@ -157,8 +157,8 @@ export default function Shop() {
               <Link to="/contact" className="btn-primary">
                 <Mail size={14} /> Send an Enquiry
               </Link>
-              <a href="mailto:info@chiccub.com" className="btn-outline">
-                info@chiccub.com
+              <a href="mailto:info@meridioncrest.online" className="btn-outline">
+                info@meridioncrest.online
               </a>
             </div>
           </div>

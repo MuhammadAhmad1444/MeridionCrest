@@ -4,21 +4,21 @@ export default function TermsOfService() {
   return (
     <LegalPage title="Terms of Service" lastUpdated="14 May 2026">
       <div className="notice-box">
-        Please read these Terms of Service carefully before using the Chic Cub website or placing an order.
+        Please read these Terms of Service carefully before using the Meridion Crest website or placing an order.
         By accessing our site or making a purchase, you agree to be bound by these terms.
       </div>
 
       <h2>1. About Us</h2>
       <p>
-        This website is operated by <strong>Chic Cub Ltd</strong>, a private limited company registered in
+        This website is operated by <strong>Meridion Crest Ltd</strong>, a private limited company registered in
         England and Wales.
       </p>
       <ul>
-        <li><strong>Company Name:</strong> Chic Cub Ltd</li>
-        <li><strong>Company Number:</strong> 17232277</li>
-        <li><strong>Registered Office:</strong> Office 1307, 60 Tottenham Court Road, Fitzrovia, London, W1T 2EW</li>
-        <li><strong>Email:</strong> info@chiccub.com</li>
-        <li><strong>Telephone:</strong> +44 20 7946 0958</li>
+        <li><strong>Company Name:</strong> Meridion Crest Ltd</li>
+        <li><strong>Company Number:</strong> 17283492</li>
+        <li><strong>Registered Office:</strong> Office 1460, 60 Tottenham Court Road, Fitzrovia, London, W1T 2EW</li>
+        <li><strong>Email:</strong> info@meridioncrest.online</li>
+        <li><strong>Telephone:</strong> +44 7882 732613</li>
       </ul>
 
       <h2>2. Acceptance of Terms</h2>
@@ -29,7 +29,7 @@ export default function TermsOfService() {
       </p>
 
       <h2>3. Our Services</h2>
-      <p>Chic Cub Ltd operates two distinct business divisions:</p>
+      <p>Meridion Crest Ltd operates two distinct business divisions:</p>
       <h3>IT Consultancy</h3>
       <p>
         We provide enterprise web development, software infrastructure design, digital strategy, and technical
@@ -83,20 +83,20 @@ export default function TermsOfService() {
       <p>
         Under the Consumer Rights Act 2015, goods must be of satisfactory quality, fit for purpose, and as
         described. If your order does not meet these standards, you are entitled to a repair, replacement,
-        or refund. Please contact us at <a href="mailto:info@chiccub.com">info@chiccub.com</a>.
+        or refund. Please contact us at <a href="mailto:info@meridioncrest.online">info@meridioncrest.online</a>.
       </p>
 
       <h2>10. Intellectual Property</h2>
       <p>
         All content on this website — including text, images, logos, graphics, and software — is the
-        intellectual property of Chic Cub Ltd or its licensors and is protected by UK and international
+        intellectual property of Meridion Crest Ltd or its licensors and is protected by UK and international
         copyright law. You may not reproduce, distribute, or use any content without our prior written
         consent.
       </p>
 
       <h2>11. Limitation of Liability</h2>
       <p>
-        To the fullest extent permitted by law, Chic Cub Ltd shall not be liable for any indirect, incidental,
+        To the fullest extent permitted by law, Meridion Crest Ltd shall not be liable for any indirect, incidental,
         special, or consequential loss arising out of your use of our website or services. Our total liability
         to you in respect of any claim shall not exceed the value of the relevant order.
       </p>
@@ -127,7 +127,7 @@ export default function TermsOfService() {
       <h2>15. Contact</h2>
       <p>
         For any queries regarding these Terms of Service, please contact us at{' '}
-        <a href="mailto:info@chiccub.com">info@chiccub.com</a> or in writing to our registered office.
+        <a href="mailto:info@meridioncrest.online">info@meridioncrest.online</a> or in writing to our registered office.
       </p>
     </LegalPage>
   )

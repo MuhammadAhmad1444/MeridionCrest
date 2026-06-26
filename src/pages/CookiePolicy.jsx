@@ -4,7 +4,7 @@ export default function CookiePolicy() {
   return (
     <LegalPage title="Cookie Policy" lastUpdated="14 May 2026">
       <div className="notice-box">
-        This Cookie Policy explains how <strong>Chic Cub Ltd</strong> uses cookies and similar tracking
+        This Cookie Policy explains how <strong>Meridion Crest Ltd</strong> uses cookies and similar tracking
         technologies on our website. You can manage your cookie preferences at any time using the banner
         displayed when you first visit the site, or by adjusting your browser settings.
       </div>
@@ -16,7 +16,7 @@ export default function CookiePolicy() {
         your visit — such as your preferences or the contents of a shopping basket.
       </p>
       <p>
-        Cookies set by the website owner (in this case, Chic Cub Ltd) are called "first-party cookies".
+        Cookies set by the website owner (in this case, Meridion Crest Ltd) are called "first-party cookies".
         Cookies set by parties other than the website owner are called "third-party cookies".
       </p>
 
@@ -29,7 +29,7 @@ export default function CookiePolicy() {
         logging in, or filling in forms.
       </p>
       <ul>
-        <li><strong>chiccub_cookie_consent</strong> — Stores your cookie consent preference (1 year)</li>
+        <li><strong>meridioncrest_cookie_consent</strong> — Stores your cookie consent preference (1 year)</li>
         <li><strong>session_id</strong> — Manages your browsing session and shopping basket</li>
         <li><strong>csrf_token</strong> — Protects against cross-site request forgery attacks</li>
       </ul>
@@ -116,10 +116,10 @@ export default function CookiePolicy() {
       <h2>7. Contact Us</h2>
       <p>
         If you have any questions about our use of cookies, please contact us at{' '}
-        <a href="mailto:info@chiccub.com">info@chiccub.com</a> or write to:
+        <a href="mailto:info@meridioncrest.online">info@meridioncrest.online</a> or write to:
       </p>
       <ul>
-        <li>Chic Cub Ltd, Office 1307, 60 Tottenham Court Road, Fitzrovia, London, W1T 2EW</li>
+        <li>Meridion Crest Ltd, Office 1460, 60 Tottenham Court Road, Fitzrovia, London, W1T 2EW</li>
       </ul>
     </LegalPage>
   )

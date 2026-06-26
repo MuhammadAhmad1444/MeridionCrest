@@ -15,11 +15,11 @@ const pillars = [
 ]
 
 const corporate = [
-  ['Company Name',      'Chic Cub Ltd'],
+  ['Company Name',      'Meridion Crest Ltd'],
   ['Registered in',     'England and Wales'],
-  ['Registered Office', 'Office 1307, 60 Tottenham Court Road, Fitzrovia, London, W1T 2EW'],
-  ['Company Number',    '[COMPANY_NUMBER]'],
-  ['Email',             'support@chiccub.com'],
+  ['Registered Office', 'Office 1460, 60 Tottenham Court Road, Fitzrovia, London, W1T 2EW'],
+  ['Company Number',    '17283492'],
+  ['Email',             'info@meridioncrest.online'],
 ]
 
 export default function About() {
@@ -51,7 +51,7 @@ export default function About() {
             <div>
               <h2 className="font-serif font-light text-3xl text-cream mb-7">Our Mission</h2>
               <p className="font-sans text-sm text-warm leading-[1.9] mb-5">
-                Chic Cub was founded with a singular vision: to demonstrate that enterprise-grade technology and world-class retail operations are not mutually exclusive. We exist at the intersection of two disciplines — IT consultancy and direct-to-consumer commerce — and use each to strengthen the other.
+                Meridion Crest was founded with a singular vision: to demonstrate that enterprise-grade technology and world-class retail operations are not mutually exclusive. We exist at the intersection of two disciplines — IT consultancy and direct-to-consumer commerce — and use each to strengthen the other.
               </p>
               <p className="font-sans text-sm text-warm leading-[1.9] mb-5">
                 Our consultancy division builds scalable web infrastructure, bespoke software systems, and digital transformation programmes for international clients. This expertise powers our own e-commerce platform — giving us a living proof-of-concept for everything we recommend.
@@ -77,7 +77,7 @@ export default function About() {
             <div>
               <h2 className="font-serif font-light text-3xl text-cream mb-7">The Proprietary Advantage</h2>
               <p className="font-sans text-sm text-warm leading-[1.9] mb-10">
-                Most retail businesses rely on third-party platforms. Chic Cub is different. Our in-house technology team has built and maintains our entire e-commerce ecosystem — the same team that advises international companies on digital infrastructure.
+                Most retail businesses rely on third-party platforms. Meridion Crest is different. Our in-house technology team has built and maintains our entire e-commerce ecosystem — the same team that advises international companies on digital infrastructure.
               </p>
               <div className="space-y-7">
                 {pillars.map(({ icon: Icon, label, desc }) => (

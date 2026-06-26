@@ -23,14 +23,14 @@ export default function RefundPolicy() {
       <ul>
         <li>
           <strong>Email:</strong> Send a clear statement of your cancellation to{' '}
-          <a href="mailto:info@chiccub.com">info@chiccub.com</a>, including your order number,
+          <a href="mailto:info@meridioncrest.online">info@meridioncrest.online</a>, including your order number,
           name, and address
         </li>
         <li>
           <strong>Contact form:</strong> Use the form on our <a href="/contact">Contact Us</a> page
         </li>
         <li>
-          <strong>Post:</strong> Send a written notice to Chic Cub Ltd, Office 1307, 60 Tottenham
+          <strong>Post:</strong> Send a written notice to Meridion Crest Ltd, Office 1460, 60 Tottenham
           Court Road, Fitzrovia, London, W1T 2EW
         </li>
       </ul>
@@ -47,7 +47,7 @@ export default function RefundPolicy() {
         <li>Return postage costs are the responsibility of the customer, unless the item is faulty or misdescribed</li>
         <li>Items must be returned in their original condition, with all packaging and accessories included</li>
         <li>We recommend using a tracked, insured delivery service — we cannot accept liability for items lost in return transit</li>
-        <li>Return address: Chic Cub Ltd, Office 1307, 60 Tottenham Court Road, Fitzrovia, London, W1T 2EW</li>
+        <li>Return address: Meridion Crest Ltd, Office 1460, 60 Tottenham Court Road, Fitzrovia, London, W1T 2EW</li>
       </ul>
 
       <h2>4. Refund Process and Timeline</h2>
@@ -98,8 +98,8 @@ export default function RefundPolicy() {
       <h2>8. Contact Us</h2>
       <p>
         If you have any questions about returns or refunds, please contact us at{' '}
-        <a href="mailto:info@chiccub.com">info@chiccub.com</a> or call us on{' '}
-        <a href="tel:+442079460958">+44 20 7946 0958</a>.
+        <a href="mailto:info@meridioncrest.online">info@meridioncrest.online</a> or call us on{' '}
+        <a href="tel:+447882732613">+44 7882 732613</a>.
       </p>
     </LegalPage>
   )

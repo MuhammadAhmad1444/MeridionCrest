@@ -4,24 +4,24 @@ export default function PrivacyPolicy() {
   return (
     <LegalPage title="Privacy Policy" lastUpdated="14 May 2026">
       <div className="notice-box">
-        This Privacy Policy explains how <strong>Chic Cub Ltd</strong> ("we", "us", "our") collects, uses,
+        This Privacy Policy explains how <strong>Meridion Crest Ltd</strong> ("we", "us", "our") collects, uses,
         stores, and protects your personal data. We are committed to full compliance with the UK General Data
         Protection Regulation (UK GDPR) and the Data Protection Act 2018.
       </div>
 
       <h2>1. Who We Are (Data Controller)</h2>
       <p>
-        <strong>Chic Cub Ltd</strong> is the data controller for personal data collected via this website.
+        <strong>Meridion Crest Ltd</strong> is the data controller for personal data collected via this website.
       </p>
       <ul>
-        <li><strong>Company Name:</strong> Chic Cub Ltd</li>
-        <li><strong>Company Number:</strong> 17232277</li>
-        <li><strong>Registered Office:</strong> Office 1307, 60 Tottenham Court Road, Fitzrovia, London, W1T 2EW</li>
-        <li><strong>Email:</strong> info@chiccub.com</li>
+        <li><strong>Company Name:</strong> Meridion Crest Ltd</li>
+        <li><strong>Company Number:</strong> 17283492</li>
+        <li><strong>Registered Office:</strong> Office 1460, 60 Tottenham Court Road, Fitzrovia, London, W1T 2EW</li>
+        <li><strong>Email:</strong> info@meridioncrest.online</li>
       </ul>
       <p>
         If you have any questions about how we handle your personal data, please contact us at{' '}
-        <a href="mailto:info@chiccub.com">info@chiccub.com</a>.
+        <a href="mailto:info@meridioncrest.online">info@meridioncrest.online</a>.
       </p>
 
       <h2>2. What Personal Data We Collect</h2>
@@ -120,7 +120,7 @@ export default function PrivacyPolicy() {
         <li><strong>Right to Withdraw Consent:</strong> Withdraw consent at any time where processing is consent-based</li>
       </ul>
       <p>
-        To exercise any of these rights, contact us at <a href="mailto:info@chiccub.com">info@chiccub.com</a>.
+        To exercise any of these rights, contact us at <a href="mailto:info@meridioncrest.online">info@meridioncrest.online</a>.
         We will respond within 30 days. If you are unsatisfied with our response, you have the right to lodge a
         complaint with the <strong>Information Commissioner's Office (ICO)</strong> at{' '}
         <a href="https://ico.org.uk" target="_blank" rel="noopener noreferrer">ico.org.uk</a>.
@@ -143,8 +143,8 @@ export default function PrivacyPolicy() {
         For any privacy-related queries, to exercise your rights, or to raise a concern, please contact:
       </p>
       <ul>
-        <li><strong>Email:</strong> <a href="mailto:info@chiccub.com">info@chiccub.com</a></li>
-        <li><strong>Post:</strong> Chic Cub Ltd, Office 1307, 60 Tottenham Court Road, Fitzrovia, London, W1T 2EW</li>
+        <li><strong>Email:</strong> <a href="mailto:info@meridioncrest.online">info@meridioncrest.online</a></li>
+        <li><strong>Post:</strong> Meridion Crest Ltd, Office 1460, 60 Tottenham Court Road, Fitzrovia, London, W1T 2EW</li>
       </ul>
     </LegalPage>
   )

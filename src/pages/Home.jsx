@@ -175,13 +175,13 @@ export default function Home() {
               </p>
               <div className="w-10 h-px bg-gold mt-10 mb-10" />
               <Link to="/about" className="btn-primary">
-                About Chic Cub <ArrowRight size={15} />
+                About Meridion Crest <ArrowRight size={15} />
               </Link>
             </div>
 
             <div>
               <p className="font-sans text-sm text-warm leading-[1.9] mb-10">
-                Chic Cub is a London-based private limited company at the intersection of enterprise technology and consumer commerce. Founded on principles of technical excellence and commercial transparency, we operate in full compliance with UK corporate law and GDPR.
+                Meridion Crest is a London-based private limited company at the intersection of enterprise technology and consumer commerce. Founded on principles of technical excellence and commercial transparency, we operate in full compliance with UK corporate law and GDPR.
               </p>
               <div className="grid grid-cols-2 gap-5">
                 {trustItems.map(({ icon: Icon, label, desc }) => (

@@ -55,7 +55,7 @@ export default function Services() {
           </h1>
           <div className="w-10 h-px bg-gold mb-7" />
           <p className="font-sans text-base text-warm leading-[1.8] max-w-2xl">
-            Whether you're an enterprise client or a consumer, Chic Cub operates to the same high standard across both divisions.
+            Whether you're an enterprise client or a consumer, Meridion Crest operates to the same high standard across both divisions.
           </p>
         </div>
       </section>
@@ -155,7 +155,7 @@ export default function Services() {
         <div className="max-w-7xl mx-auto px-6 lg:px-12 text-center">
           <h3 className="font-serif font-light text-2xl text-cream mb-3">Interested in our consultancy services?</h3>
           <p className="font-sans text-sm text-warm mb-8">
-            Let's discuss how Chic Cub's enterprise technology expertise can benefit your organisation.
+            Let's discuss how Meridion Crest's enterprise technology expertise can benefit your organisation.
           </p>
           <Link to="/contact" className="btn-primary">
             Enquire Now <ArrowRight size={15} />

@@ -2,11 +2,11 @@ import { Link } from 'react-router-dom'
 import { MapPin, Mail, Phone } from 'lucide-react'
 
 const COMPANY = {
-  name:    'Chic Cub Ltd',
-  number:  '17232277',
-  address: 'Office 1307, 60 Tottenham Court Road, Fitzrovia, London, W1T 2EW',
-  email:   'info@chiccub.com',
-  phone:   '+44 20 7946 0958',
+  name:    'Meridion Crest Ltd',
+  number:  '17283492',
+  address: 'Office 1460, 60 Tottenham Court Road, Fitzrovia, London, W1T 2EW',
+  email:   'info@meridioncrest.online',
+  phone:   '+44 7882 732613',
 }
 
 const companyLinks = [
@@ -43,8 +43,8 @@ export default function Footer() {
 
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-baseline gap-1 mb-6 group">
-              <span className="font-serif italic text-lg text-cream group-hover:text-gold-light transition-colors duration-300">Chic</span>
-              <span className="font-sans font-light text-lg text-muted tracking-[0.18em] group-hover:text-warm transition-colors duration-300">CUB</span>
+              <span className="font-serif italic text-lg text-cream group-hover:text-gold-light transition-colors duration-300">Meridion</span>
+              <span className="font-sans font-light text-lg text-muted tracking-[0.18em] group-hover:text-warm transition-colors duration-300">CREST</span>
             </Link>
             <p className="font-sans text-sm text-muted leading-relaxed mb-7 max-w-sm">
               A UK-registered technology and retail company built on transparency, technical excellence, and commercial integrity.
@@ -60,7 +60,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={12} className="text-gold flex-shrink-0" />
-                <a href="tel:+442079460958" className="text-muted hover:text-cream transition-colors duration-200">{COMPANY.phone}</a>
+                <a href="tel:+447882732613" className="text-muted hover:text-cream transition-colors duration-200">{COMPANY.phone}</a>
               </li>
             </ul>
           </div>

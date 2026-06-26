@@ -8,7 +8,7 @@ const details = [
     title: 'Registered Office',
     content: (
       <address className="not-italic font-sans text-sm text-warm leading-relaxed mt-1.5">
-        Office 1307, 60 Tottenham Court Road<br />
+        Office 1460, 60 Tottenham Court Road<br />
         Fitzrovia, London, W1T 2EW<br />
         United Kingdom
       </address>
@@ -18,8 +18,8 @@ const details = [
     icon: Mail,
     title: 'Email',
     content: (
-      <a href="mailto:info@chiccub.com" className="font-sans text-sm text-gold hover:underline mt-1.5 block">
-        info@chiccub.com
+      <a href="mailto:info@meridioncrest.online" className="font-sans text-sm text-gold hover:underline mt-1.5 block">
+        info@meridioncrest.online
       </a>
     ),
   },
@@ -27,8 +27,8 @@ const details = [
     icon: Phone,
     title: 'Telephone',
     content: (
-      <a href="tel:+442079460958" className="font-sans text-sm text-warm hover:text-cream transition-colors duration-200 mt-1.5 block">
-        +44 20 7946 0958
+      <a href="tel:+447882732613" className="font-sans text-sm text-warm hover:text-cream transition-colors duration-200 mt-1.5 block">
+        +44 7882 732613
       </a>
     ),
   },
